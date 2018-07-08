@@ -1,0 +1,9 @@
+﻿DB Migrations:
+Go to: [Package Manager console]
+add-migration initialCreate 
+update-database -verbose
+
+
+Nuget:
+Install-Package Microsoft.EntityFrameworkCore -Version 2.1.1
+
